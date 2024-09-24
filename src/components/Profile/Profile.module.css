@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: var(--shadow-regular);
+  border-radius: 16px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+p {
+  color: gray;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.stats div {
+  width: 30%;
+  text-align: center;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.stats span {
+  color: gray;
+  font-size: 12px;
+}
