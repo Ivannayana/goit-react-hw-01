@@ -17,11 +17,13 @@
   font-weight: bold;
 }
 
-.status.online {
+.online {
+  composes: status;
   color: green;
 }
 
-.status.offline {
+.offline {
+  composes: status;
   color: red;
 }
 
